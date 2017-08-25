@@ -36,7 +36,7 @@ function agregaImagen (picture){
 
 agregaImagen();
 
-
+//funcion que hace la funcionalidad de ampliar la imagen
 var logge = 1;
 var love = 1;
 function prueba (e){
@@ -44,12 +44,6 @@ function prueba (e){
     
     var divmax = document.createElement('div');
     divmax.setAttribute('class','bigbox');
-    
-    /*var inpu = document.createElement("input");
-    inpu.setAttribute('type','button');
-    inpu.setAttribute('value','>');
-    inpu.setAttribute('id','mi'+logge++);
-    inpu.setAttribute('onclick','inputt(this)');*/
 
     var closeX = document.createElement("div");
     closeX.setAttribute('class','delete');
@@ -66,7 +60,6 @@ function prueba (e){
     
     closeX.appendChild(spanX);
     divmax.appendChild(creaIma);  
-    //divmax.appendChild(inpu); 
     divmax.appendChild(closeX);; 
     body.appendChild(divmax);
     
